@@ -1,13 +1,15 @@
 package day0721;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
 
 public class day0721 {
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int N = sc.nextInt();
+		int N = Integer.parseInt(br.readLine());
 		
 		System.out.println(fibonacci(N));
 	}
