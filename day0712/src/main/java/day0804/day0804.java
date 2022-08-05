@@ -48,11 +48,7 @@ public class day0804 {
 				flag = true;
 			}
 			
-			if(count > mode_max) {
-				mode_max = count;
-				mode = i_value;
-				flag = true;
-			}
+		
 			else if(count == mode_max && flag == true) {
 				mode = i_value;
 				flag = false;
